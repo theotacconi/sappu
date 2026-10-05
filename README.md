@@ -13,12 +13,10 @@
 
 <h3 align="center"><i>A gate-level digital logic simulator of an 8-bit CPU architecture.</i></h3>
 
-<p align="center"><b>No high-level emulation.</b> Every wire, gate, flip-flop, and bus line is explicitly modeled to simulate real hardware behavior.</p>
-
 ![Example](assets/example.gif)
 
 
-I built Sappu to get a deeper understanding of physical hardware. 
+The aim of building Sappu was to get a deeper understanding of physical hardware. 
 
 Many emulators simulate behavior (e.g., `acc += val`). 
 Sappu simulates the **electricity**. The entire CPU is built on top of just two C primitives: `NAND` and `NOT`. 
@@ -27,8 +25,8 @@ From there, I implemented gates, then components, then the bus...
 The choice of C was purely for its simplicity and semantic flexibility.
 
 > [!NOTE]
-> I made use of LLMs in order to have a deeper understanding of the architecture
-> but the code was intentionally written by hand. 
+> LLMs were used in order to have a deeper understanding of the architecture
+> but the code was intentionally written by hand.
 
 ## Index
 
@@ -162,4 +160,4 @@ Inspired by:
 
 ## License
 
-MIT License. Copyright (c) 2026 Matteo Tacconi (teotexeplus@gmail.com)
+MIT License. Copyright (c) 2026 Matteo Tacconi (theotacconi@gmail.com)
